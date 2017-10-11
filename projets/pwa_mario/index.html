@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Projet</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+        <!-- inclure les autres fichier ici -->
+        <script type="text/javascript" src="vector.js"></script>
+        <script type="text/javascript" src="constants.js"></script>
+        
+        <script type="text/javascript" src="rect.js"></script>
+        <script type="text/javascript" src="box.js"></script>
+        <script type="text/javascript" src="block.js"></script>
+        <script type="text/javascript" src="player.js"></script>
+
+        <script type="text/javascript" src="world.js"></script>
+        <script type="text/javascript" src="jsondeserialize.js"></script>
+        <script type="text/javascript" src="background.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+        <script type="text/javascript" src="renderer.js"></script>
+
+        <!-- -->
+        <script type="text/javascript" src="main.js" ></script>
+    </head>
+    <body>
+        <div id="play">
+            <canvas id="canvas_background_second"></canvas>
+            <canvas id="canvas_background_first"></canvas>
+            <canvas id="canvas_world"></canvas>
+            <canvas id="canvas_player"></canvas>
+            <canvas id="canvas_menu"></canvas>
+        </div>
+        <div id="keys">
+            <h1>Les touches :</h1>
+            <ul>
+                <li><b>Droite : </b>Flèche de droite</li>
+                <li><b>Gauche : </b>Flèche de gauche</li>
+                <li><b>Sauter : </b>Flèche du haut</li>
+                <li><b>Courir : </b>Touche Ctrl</li>
+            </ul>
+        </div>
+        <p id="fps"> </p>
+    </body>
+
+</html>
